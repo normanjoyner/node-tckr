@@ -1,0 +1,35 @@
+{
+  "name": "tckr",
+  "version": "0.0.0",
+  "description": "A command line utility to display stock prices",
+  "main": "application.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Norman Joyner <norman.joyner@gmail.com>",
+  "license": "GPLv2",
+  "dependencies": {
+    "colors": "^1.0.3",
+    "lodash": "^2.4.1",
+    "marketmuster": "^0.1.0",
+    "nconf": "^0.6.9"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/normanjoyner/node-tckr.git"
+  },
+  "keywords": [
+    "stock",
+    "price",
+    "quote",
+    "stream",
+    "cli",
+    "command",
+    "line"
+  ],
+  "bugs": {
+    "url": "https://github.com/normanjoyner/node-tckr/issues"
+  },
+  "homepage": "https://github.com/normanjoyner/node-tckr"
+}
