@@ -31,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/normanjoyner/node-tckr/issues"
   },
-  "homepage": "https://github.com/normanjoyner/node-tckr"
+  "homepage": "https://github.com/normanjoyner/node-tckr",
+  "bin": {
+    "tckr": "./application.js"
+  }
 }
