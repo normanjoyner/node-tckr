@@ -1,12 +1,7 @@
 {
   "name": "tckr",
-  "version": "0.0.0",
+  "version": "1.1.0",
   "dependencies": {
-    "colors": {
-      "version": "1.0.3",
-      "from": "colors@",
-      "resolved": "https://registry.npmjs.org/colors/-/colors-1.0.3.tgz"
-    },
     "lodash": {
       "version": "2.4.1",
       "from": "lodash@",
@@ -193,6 +188,11 @@
           }
         }
       }
+    },
+    "ncurses": {
+      "version": "0.4.1",
+      "from": "ncurses@",
+      "resolved": "https://registry.npmjs.org/ncurses/-/ncurses-0.4.1.tgz"
     }
   }
 }
