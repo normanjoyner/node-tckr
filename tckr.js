@@ -33,7 +33,7 @@ Tckr.prototype.initialize = function(){
             window.append_line("High", { row: 3, column: 95, color: 7 });
             window.append_line("Price", { row: 3, column: 110, color: 7 });
         },
-        commands: ["a", "q", "w", "o"]
+        commands: ["a", "q", "w", "o", "d"]
     });
 
     display.create(options);
