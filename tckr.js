@@ -26,14 +26,14 @@ Tckr.prototype.initialize = function(){
             window.current_line = 5;
             window.lines = {};
             window.append_line("Name", { row: 3, column: 10 , color: 7 });
-            window.append_line("Symbol", { row: 3, column: 40, color: 7 });
-            window.append_line("Close", { row: 3, column: 55, color: 7 });
-            window.append_line("Open", { row: 3, column: 70, color: 7 });
-            window.append_line("Bid", { row: 3, column: 85, color: 7 });
-            window.append_line("Ask", { row: 3, column: 100, color: 7 });
-            window.append_line("Price", { row: 3, column: 115, color: 7 });
+            window.append_line("Symbol", { row: 3, column: 35, color: 7 });
+            window.append_line("Exchange", { row: 3, column: 50, color: 7 });
+            window.append_line("Open", { row: 3, column: 65, color: 7 });
+            window.append_line("Low", { row: 3, column: 80, color: 7 });
+            window.append_line("High", { row: 3, column: 95, color: 7 });
+            window.append_line("Price", { row: 3, column: 110, color: 7 });
         },
-        commands: ["exit", "add"]
+        commands: ["a", "q", "w", "o"]
     });
 
     display.create(options);

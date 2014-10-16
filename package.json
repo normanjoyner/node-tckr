@@ -10,7 +10,7 @@
   "license": "GPLv2",
   "dependencies": {
     "lodash": "^2.4.1",
-    "marketmuster": "^0.1.0",
+    "marketmuster": "^0.2.0",
     "nconf": "^0.6.9",
     "ncurses": "^0.4.1"
   },
