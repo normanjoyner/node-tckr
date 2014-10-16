@@ -1,6 +1,6 @@
 {
   "name": "tckr",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "A command line utility to display stock prices",
   "main": "application.js",
   "scripts": {
